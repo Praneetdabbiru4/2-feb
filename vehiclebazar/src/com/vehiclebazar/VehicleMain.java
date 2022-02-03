@@ -35,7 +35,7 @@ public class VehicleMain {
 		System.out.println("Vehicle color\t"+ vikrant.getColor());
 		System.out.println("Customer Review\t"+ vikrant.getreview());
 		vikrant.settopspeed(150);
-		System.out.println("topspeed\t"+vikrant.topspeed());
+		System.out.println("topspeed\t"+vikrant.gettopspeed());
 		
 		
 		
