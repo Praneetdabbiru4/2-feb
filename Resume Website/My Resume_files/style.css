@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000vh;
+  min-height: 1000px;
+  background: #fff;
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+.container .left {
+  position: relative;
+  background-color: rgba(255, 255, 255);
+  padding: 40px;
+}
+
+.profile {
+  position: relative;
+  padding-bottom: 20px;
+}
+.profile h1 {
+  color: darkblue;
+}
+.profile h3 {
+  color: rgba(0, 0, 139, 0.4);
+}
+.profile p {
+  color: rgb(0, 0, 102);
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.container .right {
+  position: relative;
+  background-color: whitesmoke;
+
+  padding: 40px;
+}
+.education {
+  padding-bottom: 5px;
+}
+.education h1 {
+  font-weight: 1000;
+  font-size: 20px;
+  color: rgb(0, 0, 139);
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px solid rgba(0, 0, 139, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 139, 0.8);
+}
+li {
+  list-style: none;
+}
+.education h3 {
+  color: rgba(0, 0, 139, 0.8);
+}
+.education h4 {
+  color: rgba(0, 0, 139, 0.5);
+  text-align: left;
+}
+.date {
+  text-align: left;
+  color: rgba(0, 0, 139, 0.4);
+  font-style: italic;
+}
+.place {
+  text-align: right;
+  color: rgba(0, 0, 139, 0.4);
+  font-style: italic;
+}
+
+.volunteer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.volunteer h1 {
+  font-weight: 1000;
+  font-size: 20px;
+  color: rgb(0, 0, 139);
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px solid rgba(0, 0, 139, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 139, 0.8);
+}
+.volunteer #post {
+  font-weight: bold;
+  color: rgb(0, 0, 139);
+  text-align: left;
+}
+.volunteer h2 {
+  font-weight: 100;
+  color: rgb(0, 0, 139);
+  text-align: left;
+}
+.volunteer p {
+  font-weight: 500;
+  color: rgb(0, 0, 139);
+  text-align: left;
+  letter-spacing: 1px;
+}
+.imgBx {
+  position: relative;
+  width: 150px;
+  padding-left: 0;
+  border-radius: 20%;
+  overflow: hidden;
+}
+.imgBx img {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+  color: rgb(0, 0, 139);
+  margin-left: 0;
+  padding-left: 0%;
+  object-fit: cover;
+}
+.text {
+  position: relative;
+  text-align: end;
+  font-weight: bold;
+}
+.contact {
+  position: relative;
+  text-align: end;
+  margin-left: 30%;
+  margin-top: 8px;
+  letter-spacing: 1px;
+}
+.skill {
+  width: 20%;
+  font-weight: 1000;
+  font-size: 10px;
+  color: rgb(0, 0, 139);
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px solid rgba(0, 0, 139, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 139, 0.8);
+}
+.skill {
+  padding-bottom: 5px;
+  padding-left: 3px;
+}
+.skillQuality {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+#python {
+  border: 2px solid black;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 30%;
+  font-size: medium;
+  letter-spacing: 1px;
+  padding: 6px;
+}
+#c {
+  border: 2px solid black;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 30%;
+  font-size: medium;
+  letter-spacing: 1px;
+  padding: 6px;
+}
+#html {
+  border: 2px solid black;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 30%;
+  font-size: medium;
+  letter-spacing: 1px;
+  padding: 6px;
+}
+#flutter {
+  border: 2px solid black;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 30%;
+  font-size: medium;
+  letter-spacing: 1px;
+  padding: 6px;
+}
+.organisation h1 {
+  width: 20%;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(0, 0, 139);
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px solid rgba(0, 0, 139, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 139, 0.8);
+}
+.organisation h5 {
+  text-align: left;
+  color: rgba(0, 0, 139, 0.4);
+  font-style: italic;
+}
+.organisation h3 {
+  color: rgb(0, 0, 139);
+  font-weight: bold;
+}
+.strength h1 {
+  width: 40%;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(0, 0, 139);
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px solid rgba(0, 0, 139, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 139, 0.8);
+}
+.strength li {
+  color: rgba(0, 0, 139, 1);
+  font-weight: bold;
+}
+.interests h1 {
+  width: 40%;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(0, 0, 139);
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px solid rgba(0, 0, 139, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 139, 0.8);
+}
+
+#hobbies {
+  position: relative;
+  border: 1px solid black;
+  border-style: groove;
+  background-color: white;
+  color: rgb(0, 0, 139);
+  border-radius: 0;
+  font-size: medium;
+  letter-spacing: 1px;
+  width: 20%;
+  text-align: center;
+  padding: 6px;
+  overflow: hidden;
+  object-fit: scale-down;
+}
+
+.hobbies {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.hobbies1 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+#hobbies1 {
+  position: relative;
+  border: 1px solid black;
+  border-style: groove;
+  background-color: white;
+  color: rgb(0, 0, 139);
+  border-radius: 0;
+  font-size: medium;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 20%;
+  text-align: center;
+  padding: 6px;
+  overflow: hidden;
+  object-fit: scale-down;
+}
+#travelling {
+  position: relative;
+  border: 1px solid black;
+  border-style: groove;
+  background-color: white;
+  color: rgb(0, 0, 139);
+  border-radius: 0;
+  font-size: medium;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 20%;
+  text-align: center;
+  padding: 6px;
+  overflow: hidden;
+  object-fit: scale-down;
+}
+
+img {
+  border-radius: 50%;
+
+  top: 0;
+
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  align-items: center;
+}
+.top {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
